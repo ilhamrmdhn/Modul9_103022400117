@@ -39,7 +39,7 @@ else if (config.lang == "id")
     Console.WriteLine("Biaya transfer = " + fee);
     Console.WriteLine("Total biaya = " + (amount + fee));
     Console.WriteLine("Pilih metode transfer: ");
-    for (int i = 0; i < config.method.Length; i++)
+    for (int i = 0; i < config.method.Count; i++)
     {
         Console.WriteLine((i + 1) + " " + config.method[i]);
     }
